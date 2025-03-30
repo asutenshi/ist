@@ -90,6 +90,8 @@ cursor.execute("""
         AND t.operation_type = 'Продажа'
         AND p.product_name LIKE '%Шампунь%'
 """)
-total = int(cursor.fetchall()[0][0])
+total = int(cursor.fetchone()[0])
 print(total)
+
+connection.close()
 # %%
