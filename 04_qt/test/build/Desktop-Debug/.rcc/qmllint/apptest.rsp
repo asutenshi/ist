@@ -1,0 +1,10 @@
+--bare
+-I
+/home/tenshi/sync/code_sync/ist/qt/test/build/Desktop-Debug
+-I
+/usr/lib/qt6/qml
+--resource
+/home/tenshi/sync/code_sync/ist/qt/test/build/Desktop-Debug/.qt/rcc/qmake_test.qrc
+--resource
+/home/tenshi/sync/code_sync/ist/qt/test/build/Desktop-Debug/.qt/rcc/apptest_raw_qml_0.qrc
+/home/tenshi/sync/code_sync/ist/qt/test/Main.qml

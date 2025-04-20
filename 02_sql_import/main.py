@@ -19,7 +19,7 @@ cursor = connection.cursor()
 cursor.execute("""
     CREATE TABLE IF NOT EXISTS products (
         id integer primary key NOT NULL UNIQUE,
-        department TEXT NOT NULL,
+
         product_name TEXT NOT NULL,
         units TEXT NOT NULL,
         quantity integer NOT NULL,

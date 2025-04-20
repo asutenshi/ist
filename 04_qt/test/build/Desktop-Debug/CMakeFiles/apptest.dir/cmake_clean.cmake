@@ -1,0 +1,40 @@
+file(REMOVE_RECURSE
+  ".qt/rcc/qrc_apptest_raw_qml_0.cpp"
+  ".qt/rcc/qrc_qmake_test.cpp"
+  ".rcc/qmlcache/apptest_Main_qml.cpp"
+  ".rcc/qmlcache/apptest_Main_qml.cpp.aotstats"
+  ".rcc/qmlcache/apptest_qmlcache_loader.cpp"
+  "CMakeFiles/apptest.dir/link.d"
+  "CMakeFiles/apptest_autogen.dir/AutogenUsed.txt"
+  "CMakeFiles/apptest_autogen.dir/ParseCache.txt"
+  "apptest_autogen"
+  "CMakeFiles/apptest.dir/apptest_autogen/mocs_compilation.cpp.o"
+  "CMakeFiles/apptest.dir/apptest_autogen/mocs_compilation.cpp.o.d"
+  "CMakeFiles/apptest.dir/apptest_qmltyperegistrations.cpp.o"
+  "CMakeFiles/apptest.dir/apptest_qmltyperegistrations.cpp.o.d"
+  "CMakeFiles/apptest.dir/build/Desktop-Debug/.qt/rcc/qrc_apptest_raw_qml_0.cpp.o"
+  "CMakeFiles/apptest.dir/build/Desktop-Debug/.qt/rcc/qrc_apptest_raw_qml_0.cpp.o.d"
+  "CMakeFiles/apptest.dir/build/Desktop-Debug/.qt/rcc/qrc_qmake_test.cpp.o"
+  "CMakeFiles/apptest.dir/build/Desktop-Debug/.qt/rcc/qrc_qmake_test.cpp.o.d"
+  "CMakeFiles/apptest.dir/build/Desktop-Debug/.rcc/qmlcache/apptest_Main_qml.cpp.o"
+  "CMakeFiles/apptest.dir/build/Desktop-Debug/.rcc/qmlcache/apptest_Main_qml.cpp.o.d"
+  "CMakeFiles/apptest.dir/build/Desktop-Debug/.rcc/qmlcache/apptest_qmlcache_loader.cpp.o"
+  "CMakeFiles/apptest.dir/build/Desktop-Debug/.rcc/qmlcache/apptest_qmlcache_loader.cpp.o.d"
+  "CMakeFiles/apptest.dir/main.cpp.o"
+  "CMakeFiles/apptest.dir/main.cpp.o.d"
+  "apptest"
+  "apptest.pdb"
+  "apptest_autogen/mocs_compilation.cpp"
+  "apptest_autogen/timestamp"
+  "apptest_qmltyperegistrations.cpp"
+  "meta_types/apptest_json_file_list.txt"
+  "meta_types/apptest_json_file_list.txt.timestamp"
+  "meta_types/qt6apptest_debug_metatypes.json"
+  "meta_types/qt6apptest_debug_metatypes.json.gen"
+  "test/apptest.qmltypes"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/apptest.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

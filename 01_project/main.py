@@ -250,7 +250,41 @@ cursor.execute("""
 for company, order_sum, order_date, status in cursor.fetchall():
     print(f"{order_date}: {company} — заказ на {order_sum}₽ [{status}]")
 
+# %%
+cursor.execute("""
+    SELECT
+        c.company,
+        o.sum,
+        o.order_date,
+        CASE
+            WHEN o.status = 'done' THEN 'Заказ выполнен'
+            WHEN o.status = 'issued' THEN 'Заказ выполняется'
+            ELSE 'Заказ отменён'
+        END AS status_info
+    FROM orders o
+    JOIN employees e ON o.id_employee = e.id
+    JOIN job_titles j ON e.id_job_title = j.id_job_title
+    JOIN customers c ON o.id_customer = c.id;
+""")
+print(cursor.fetchall())
+
+cursor.execute("""
+    SELECT
+        c.company,
+        o.sum,
+        o.order_date,
+        CASE
+            WHEN o.sum < 300  THEN 'Дешёвый заказ'
+            WHEN o.sum >= 300 AND o.sum < 700 THEN 'Средний заказ'
+            ELSE 'Дорогой заказ'
+        END AS price_info
+    FROM orders o
+    JOIN employees e ON o.id_employee = e.id
+    JOIN job_titles j ON e.id_job_title = j.id_job_title
+    JOIN customers c ON o.id_customer = c.id;
+""")
+
+print(cursor.fetchall())
 
 # %%
 connection.close()
-# %%

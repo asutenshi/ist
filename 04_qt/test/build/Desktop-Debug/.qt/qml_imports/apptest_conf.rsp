@@ -1,0 +1,14 @@
+-rootPath
+/home/tenshi/sync/code_sync/ist/qt/test
+-cmake-output
+-output-file
+/home/tenshi/sync/code_sync/ist/qt/test/build/Desktop-Debug/.qt/qml_imports/apptest_conf.cmake
+-importPath
+/home/tenshi/sync/code_sync/ist/qt/test/build/Desktop-Debug/test
+-importPath
+/home/tenshi/sync/code_sync/ist/qt/test/build/Desktop-Debug
+-importPath
+/usr/lib/qt6/qml
+-qrcFiles
+/home/tenshi/sync/code_sync/ist/qt/test/build/Desktop-Debug/.qt/rcc/qmake_test.qrc
+/home/tenshi/sync/code_sync/ist/qt/test/build/Desktop-Debug/.qt/rcc/apptest_raw_qml_0.qrc

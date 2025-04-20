@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/">
+    <file alias="/test">/home/tenshi/sync/code_sync/ist/qt/test/build/Desktop-Debug/test</file>
+
+  </qresource>
+</RCC>

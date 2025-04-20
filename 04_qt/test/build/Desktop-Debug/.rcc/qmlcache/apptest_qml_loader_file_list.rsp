@@ -1,0 +1,5 @@
+--resource
+/home/tenshi/sync/code_sync/ist/qt/test/build/Desktop-Debug/.qt/rcc/qmake_test.qrc
+--resource
+/home/tenshi/sync/code_sync/ist/qt/test/build/Desktop-Debug/.qt/rcc/apptest_raw_qml_0.qrc
+/test/Main.qml

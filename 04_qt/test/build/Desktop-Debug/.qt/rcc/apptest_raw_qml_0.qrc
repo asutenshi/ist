@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/test/">
+    <file alias="Main.qml">/home/tenshi/sync/code_sync/ist/qt/test/Main.qml</file>
+  </qresource>
+</RCC>
+
