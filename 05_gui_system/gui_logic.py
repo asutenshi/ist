@@ -65,7 +65,7 @@ class ShopApp(QMainWindow):
         product_label = QLabel("Товар:")
         self.product_combo = QComboBox()
         self.update_product_combo()
-        
+
         product_row.addWidget(product_label)
         product_row.addWidget(self.product_combo, 1)
         
